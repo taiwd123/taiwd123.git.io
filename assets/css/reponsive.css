@@ -1,0 +1,73 @@
+/* tablet */
+@media screen and (min-width:46.25em) and (max-width:63.9375em){
+  
+}
+
+/* mobile */
+@media screen and (max-width:46.1875em){
+    #header{
+        height: 46px;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        overflow: hidden;
+    }
+    #header .menu-mobile{
+        display: block;
+    }
+    #header  li:first-child {
+        display: inline-block;
+    }
+    .text-content{
+        display: none;
+    }
+    #nag > li{
+        display: block;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #nag {
+        display: block;
+    }
+    #nag .subnag{
+        position: initial;
+        background-color: rgb(51, 49, 49);
+    }
+    #nag .subnag a{
+        color: #fff;
+        padding: 4px 36px;
+    }
+    #content .person1{
+        padding: 8px 0; 
+        width: 100%;
+        float: initial;
+    }
+
+    .place-item{
+        margin-right: -12px;
+        width: 100%;
+        float: initial;
+        padding: 8px 0;
+    }
+    .places{
+        margin-right: -36px;
+    }
+    .place-buy-btn{
+        width: 100%;
+        height: 44px;
+    }
+    .s-col-full{
+        width: 100%;
+    }
+    .col.col-half.s-col-full{
+        padding: 10px 0;
+    }
+    .form-control{
+        width: 90%;
+    }
+    
+}
